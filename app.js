@@ -19,6 +19,8 @@ var campgroundRoutes = require("./routes/campgrounds"),
     commentRoutes = require("./routes/comments"),
     authRoutes = require("./routes/index");
 
+//"mongodb+srv://opalomequeg:op.3516402@cluster0-erdj4.mongodb.net/yelpcamp?retryWrites=true&w=majority"
+
 //CONNECT TO THE DATABASE
 mongoose.connect("mongodb+srv://opalomequeg:op.3516402@cluster0-erdj4.mongodb.net/yelpcamp?retryWrites=true&w=majority", {
     useNewUrlParser: true,
